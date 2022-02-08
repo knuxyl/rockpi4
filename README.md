@@ -2,7 +2,11 @@
 Scripts for setting up Rock Pi 4
 
 
+
+
 These scripts might only apply to Manjaro, especially the build prefix for mesa
+
+
 
 
 Compiler options
@@ -11,6 +15,8 @@ Compiler options
 export CFLAGS='-march=armv8-a -mcpu=cortex-a72.cortex-a53 -O3 -funsafe-math-optimizations -flto
 
 export CXXFLAGS='-march=armv8-a -mcpu=cortex-a72.cortex-a53 -O3 -funsafe-math-optimizations -flto
+
+
 
 
 Building Mesa
