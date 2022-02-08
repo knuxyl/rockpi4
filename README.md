@@ -9,7 +9,7 @@ These scripts might only apply to Manjaro, especially the build prefix for mesa
 
 
 
-Compiler options
+Compiler options (take off -flto to disable link-time optimizations. this breaks a lot of builds)
 
 
 export CFLAGS='-march=armv8-a -mcpu=cortex-a72.cortex-a53 -O3 -funsafe-math-optimizations -flto
